@@ -1,0 +1,24 @@
+{
+    "entities": [
+        {
+            "x": 0,
+            "y": 0,
+            "type": "player"
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "type": "anduril"
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "type": "hydra"
+        }
+    ],
+    "width": 10,
+    "height": 10,
+    "goal-condition": {
+        "goal": "enemies"
+      }
+}

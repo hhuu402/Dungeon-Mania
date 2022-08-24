@@ -1,0 +1,1385 @@
+{
+  "tickCount": 0,
+  "width": 18,
+  "height": 16,
+  "dungeonName": "advanced-2",
+  "gameMode": {
+    "type": "standard",
+    "width": 18,
+    "height": 16,
+    "playerHealth": 100,
+    "enemyHealth": 50,
+    "playerAttack": 10,
+    "enemyAttack": 10
+  },
+  "start": {
+    "x": 1,
+    "y": 1,
+    "layer": 2
+  },
+  "player": {
+    "type": "player",
+    "position": {
+      "x": 1,
+      "y": 1,
+      "layer": 2
+    },
+    "gameMode": {
+      "type": "standard",
+      "width": 18,
+      "height": 16,
+      "playerHealth": 100,
+      "enemyHealth": 50,
+      "playerAttack": 10,
+      "enemyAttack": 10
+    },
+    "health": 100,
+    "attack": 10,
+    "effectList": {},
+    "buildableList": [],
+    "inventory": {
+      "inventoryList": [],
+      "buildableList": []
+    }
+  },
+  "goal": {
+    "subgoals": [
+      {
+        "goal": "enemies",
+        "completionStatus": false,
+        "isSubgoal": true
+      },
+      {
+        "goal": "treasure",
+        "completionStatus": false,
+        "isSubgoal": true
+      }
+    ],
+    "goal": "AND",
+    "completionStatus": false,
+    "isSubgoal": false
+  },
+  "entities": [
+    {
+      "id": "entity-0",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-1",
+      "type": "wall",
+      "position": {
+        "x": 1,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-2",
+      "type": "wall",
+      "position": {
+        "x": 2,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-3",
+      "type": "wall",
+      "position": {
+        "x": 3,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-4",
+      "type": "wall",
+      "position": {
+        "x": 4,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-5",
+      "type": "wall",
+      "position": {
+        "x": 5,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-6",
+      "type": "wall",
+      "position": {
+        "x": 6,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-7",
+      "type": "wall",
+      "position": {
+        "x": 7,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-8",
+      "type": "wall",
+      "position": {
+        "x": 8,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-9",
+      "type": "wall",
+      "position": {
+        "x": 9,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-10",
+      "type": "wall",
+      "position": {
+        "x": 10,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-11",
+      "type": "wall",
+      "position": {
+        "x": 11,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-12",
+      "type": "wall",
+      "position": {
+        "x": 12,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-13",
+      "type": "wall",
+      "position": {
+        "x": 13,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-14",
+      "type": "wall",
+      "position": {
+        "x": 14,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-15",
+      "type": "wall",
+      "position": {
+        "x": 15,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-16",
+      "type": "wall",
+      "position": {
+        "x": 16,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-17",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 0,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-18",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 1,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "durability": 10,
+      "effect": "swordMod",
+      "uniqueItems": [
+        "sword",
+        "bow",
+        "shield",
+        "armour"
+      ],
+      "pickedUp": false,
+      "isUsed": false,
+      "id": "entity-19",
+      "type": "sword",
+      "position": {
+        "x": 6,
+        "y": 1,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-20",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 1,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-21",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 2,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-22",
+      "type": "wall",
+      "position": {
+        "x": 3,
+        "y": 2,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-23",
+      "type": "wall",
+      "position": {
+        "x": 6,
+        "y": 2,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-24",
+      "type": "wall",
+      "position": {
+        "x": 7,
+        "y": 2,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-25",
+      "type": "wall",
+      "position": {
+        "x": 8,
+        "y": 2,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-26",
+      "type": "wall",
+      "position": {
+        "x": 9,
+        "y": 2,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-27",
+      "type": "wall",
+      "position": {
+        "x": 12,
+        "y": 2,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-28",
+      "type": "wall",
+      "position": {
+        "x": 13,
+        "y": 2,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-29",
+      "type": "wall",
+      "position": {
+        "x": 14,
+        "y": 2,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-30",
+      "type": "wall",
+      "position": {
+        "x": 15,
+        "y": 2,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-31",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 2,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-32",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 3,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-33",
+      "type": "wall",
+      "position": {
+        "x": 3,
+        "y": 3,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-34",
+      "type": "wall",
+      "position": {
+        "x": 4,
+        "y": 3,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-35",
+      "type": "wall",
+      "position": {
+        "x": 15,
+        "y": 3,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-36",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 3,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-37",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 4,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-38",
+      "type": "wall",
+      "position": {
+        "x": 8,
+        "y": 4,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "pickedUp": false,
+      "isUsed": false,
+      "id": "entity-39",
+      "type": "bomb",
+      "position": {
+        "x": 13,
+        "y": 4,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-40",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 4,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-41",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 5,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "bribe": false,
+      "sceptreBribeCount": 0,
+      "health": 50,
+      "attackDamage": 10,
+      "id": "entity-42",
+      "type": "mercenary",
+      "position": {
+        "x": 3,
+        "y": 5,
+        "layer": 2
+      },
+      "isInteractable": true
+    },
+    {
+      "id": "entity-43",
+      "type": "wall",
+      "position": {
+        "x": 8,
+        "y": 5,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-44",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 5,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-45",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 6,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-46",
+      "type": "wall",
+      "position": {
+        "x": 6,
+        "y": 6,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-47",
+      "type": "wall",
+      "position": {
+        "x": 8,
+        "y": 6,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-48",
+      "type": "wall",
+      "position": {
+        "x": 9,
+        "y": 6,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-49",
+      "type": "wall",
+      "position": {
+        "x": 13,
+        "y": 6,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-50",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 6,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-51",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 7,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-52",
+      "type": "wall",
+      "position": {
+        "x": 6,
+        "y": 7,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-53",
+      "type": "wall",
+      "position": {
+        "x": 12,
+        "y": 7,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-54",
+      "type": "wall",
+      "position": {
+        "x": 13,
+        "y": 7,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-55",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 7,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-56",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 8,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-57",
+      "type": "wall",
+      "position": {
+        "x": 3,
+        "y": 8,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-58",
+      "type": "wall",
+      "position": {
+        "x": 4,
+        "y": 8,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-59",
+      "type": "wall",
+      "position": {
+        "x": 5,
+        "y": 8,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-60",
+      "type": "wall",
+      "position": {
+        "x": 6,
+        "y": 8,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-61",
+      "type": "wall",
+      "position": {
+        "x": 8,
+        "y": 8,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-62",
+      "type": "wall",
+      "position": {
+        "x": 9,
+        "y": 8,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-63",
+      "type": "wall",
+      "position": {
+        "x": 10,
+        "y": 8,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-64",
+      "type": "wall",
+      "position": {
+        "x": 13,
+        "y": 8,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-65",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 8,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-66",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 9,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-67",
+      "type": "wall",
+      "position": {
+        "x": 9,
+        "y": 9,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-68",
+      "type": "wall",
+      "position": {
+        "x": 13,
+        "y": 9,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-69",
+      "type": "wall",
+      "position": {
+        "x": 14,
+        "y": 9,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-70",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 9,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-71",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 10,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-72",
+      "type": "wall",
+      "position": {
+        "x": 3,
+        "y": 10,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-73",
+      "type": "wall",
+      "position": {
+        "x": 5,
+        "y": 10,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-74",
+      "type": "wall",
+      "position": {
+        "x": 6,
+        "y": 10,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "pickedUp": false,
+      "isUsed": false,
+      "id": "entity-75",
+      "type": "treasure",
+      "position": {
+        "x": 7,
+        "y": 10,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "isOpened": false,
+      "uniqueKey": 1,
+      "id": "entity-76",
+      "type": "door",
+      "position": {
+        "x": 15,
+        "y": 9,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "isOpened": false,
+      "uniqueKey": 2,
+      "id": "entity-77",
+      "type": "door",
+      "position": {
+        "x": 4,
+        "y": 10,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "uniqueKey": 1,
+      "pickedUp": false,
+      "isUsed": false,
+      "id": "entity-78",
+      "type": "key",
+      "position": {
+        "x": 11,
+        "y": 10,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "uniqueKey": 2,
+      "pickedUp": false,
+      "isUsed": false,
+      "id": "entity-79",
+      "type": "key",
+      "position": {
+        "x": 12,
+        "y": 10,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "pickedUp": false,
+      "isUsed": false,
+      "id": "entity-80",
+      "type": "wood",
+      "position": {
+        "x": 11,
+        "y": 11,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "pickedUp": false,
+      "isUsed": false,
+      "id": "entity-81",
+      "type": "wood",
+      "position": {
+        "x": 11,
+        "y": 12,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "pickedUp": false,
+      "isUsed": false,
+      "id": "entity-82",
+      "type": "arrow",
+      "position": {
+        "x": 11,
+        "y": 13,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "pickedUp": false,
+      "isUsed": false,
+      "id": "entity-83",
+      "type": "arrow",
+      "position": {
+        "x": 11,
+        "y": 14,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "pickedUp": false,
+      "isUsed": false,
+      "id": "entity-84",
+      "type": "arrow",
+      "position": {
+        "x": 12,
+        "y": 14,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "pickedUp": false,
+      "isUsed": false,
+      "id": "entity-85",
+      "type": "wood",
+      "position": {
+        "x": 13,
+        "y": 14,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-86",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 10,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-87",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 11,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-88",
+      "type": "wall",
+      "position": {
+        "x": 3,
+        "y": 11,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-89",
+      "type": "wall",
+      "position": {
+        "x": 6,
+        "y": 11,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-90",
+      "type": "wall",
+      "position": {
+        "x": 8,
+        "y": 11,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-91",
+      "type": "wall",
+      "position": {
+        "x": 9,
+        "y": 11,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-92",
+      "type": "wall",
+      "position": {
+        "x": 10,
+        "y": 11,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-93",
+      "type": "wall",
+      "position": {
+        "x": 12,
+        "y": 11,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-94",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 11,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-95",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 12,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-96",
+      "type": "wall",
+      "position": {
+        "x": 3,
+        "y": 12,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-97",
+      "type": "wall",
+      "position": {
+        "x": 9,
+        "y": 12,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-98",
+      "type": "wall",
+      "position": {
+        "x": 12,
+        "y": 12,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-99",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 12,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-100",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 13,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-101",
+      "type": "wall",
+      "position": {
+        "x": 3,
+        "y": 13,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-102",
+      "type": "wall",
+      "position": {
+        "x": 4,
+        "y": 13,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-103",
+      "type": "wall",
+      "position": {
+        "x": 5,
+        "y": 13,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-104",
+      "type": "wall",
+      "position": {
+        "x": 12,
+        "y": 13,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-105",
+      "type": "wall",
+      "position": {
+        "x": 13,
+        "y": 13,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-106",
+      "type": "wall",
+      "position": {
+        "x": 14,
+        "y": 13,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-107",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 13,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-108",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 14,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-109",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 14,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-110",
+      "type": "wall",
+      "position": {
+        "x": 0,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-111",
+      "type": "wall",
+      "position": {
+        "x": 1,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-112",
+      "type": "wall",
+      "position": {
+        "x": 2,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-113",
+      "type": "wall",
+      "position": {
+        "x": 3,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-114",
+      "type": "wall",
+      "position": {
+        "x": 4,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-115",
+      "type": "wall",
+      "position": {
+        "x": 5,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-116",
+      "type": "wall",
+      "position": {
+        "x": 6,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-117",
+      "type": "wall",
+      "position": {
+        "x": 7,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-118",
+      "type": "wall",
+      "position": {
+        "x": 8,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-119",
+      "type": "wall",
+      "position": {
+        "x": 9,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-120",
+      "type": "wall",
+      "position": {
+        "x": 10,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-121",
+      "type": "wall",
+      "position": {
+        "x": 11,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-122",
+      "type": "wall",
+      "position": {
+        "x": 12,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-123",
+      "type": "wall",
+      "position": {
+        "x": 13,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-124",
+      "type": "wall",
+      "position": {
+        "x": 14,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-125",
+      "type": "wall",
+      "position": {
+        "x": 15,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-126",
+      "type": "wall",
+      "position": {
+        "x": 16,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    },
+    {
+      "id": "entity-127",
+      "type": "wall",
+      "position": {
+        "x": 17,
+        "y": 15,
+        "layer": 0
+      },
+      "isInteractable": false
+    }
+  ],
+  "swamps": []
+}
